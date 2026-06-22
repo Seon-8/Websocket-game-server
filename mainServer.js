@@ -5,7 +5,7 @@ let rooms = new Map();
 
 // let serverSlots = [1,2,3,4];
 
-let serverLimit = 4;
+let serverLimit = 12;
 
 const PORT = process.env.PORT || 8080;
 
