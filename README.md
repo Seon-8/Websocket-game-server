@@ -30,20 +30,7 @@ Password : multiplayer123
 
 ## System Architecture
 
-                Unity Client
-                     │
-              WebSocket Connection
-                     │
-                     ▼
-             Node.js WebSocket Server
-                     │
-        ┌────────────┼────────────┐
-        │            │            │
-   Room Manager  Player Manager  Message Routing
-                     │
-                     ▼
-             Connected Clients
-
+![Architecture Diagram](Images/Architecture Diagram.png)
 
 ## How It Works
 
