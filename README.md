@@ -30,7 +30,7 @@ Password : multiplayer123
 
 ## System Architecture
 
-![Architecture Diagram](Images/Architecture Diagram.png)
+![Architecture Diagram](Images/Architecture-Diagram.png)
 
 ## How It Works
 
