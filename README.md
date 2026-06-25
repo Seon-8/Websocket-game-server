@@ -35,6 +35,26 @@ Password : multiplayer123
 ## Server Logs
 ![Architecture Diagram](Images/Server-Console-Logs.png)
 
+## Example Messages
+
+# Move Message:
+
+```json
+{
+  "type": "move",
+  "playerId": "P01",
+  "x": 12.6,
+  "y": 4.2
+}
+```
+
+# Create Room Message:
+```json
+{
+  "type": "createRoom",
+}
+```
+
 ## How It Works
 
 1. Players connect to the WebSocket server.
