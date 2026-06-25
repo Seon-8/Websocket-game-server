@@ -37,7 +37,7 @@ Password : multiplayer123
 
 ## Example Messages
 
-# Move Message:
+### Move Message:
 
 ```json
 {
@@ -48,7 +48,7 @@ Password : multiplayer123
 }
 ```
 
-# Create Room Message:
+### Create Room Message:
 ```json
 {
   "type": "createRoom",
