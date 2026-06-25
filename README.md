@@ -27,6 +27,13 @@ Password : multiplayer123
 - JSON
 - Render
 
+## How It Works
+
+1. Players connect to the WebSocket server.
+2. A player can create a new room or join an existing one.
+3. The server assigns a unique player ID.
+4. Player actions (movement, jumping, etc.) are sent to the server.
+5. The server forwards updates only to players within the same room, keeping all clients synchronized.
 
 ## System Architecture
 
@@ -55,13 +62,6 @@ Password : multiplayer123
 }
 ```
 
-## How It Works
-
-1. Players connect to the WebSocket server.
-2. A player can create a new room or join an existing one.
-3. The server assigns a unique player ID.
-4. Player actions (movement, jumping, etc.) are sent to the server.
-5. The server forwards updates only to players within the same room, keeping all clients synchronized.
 
 ## Limitations
 
