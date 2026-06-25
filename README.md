@@ -32,6 +32,9 @@ Password : multiplayer123
 
 ![Architecture Diagram](Images/Architecture-Diagram.png)
 
+## Server Logs
+![Architecture Diagram](Images/Server-Console-Logs.png)
+
 ## How It Works
 
 1. Players connect to the WebSocket server.
