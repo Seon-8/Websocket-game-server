@@ -59,6 +59,7 @@ Password : multiplayer123
 ```json
 {
   "type": "createRoom",
+  "playerId": "P01",
 }
 ```
 
