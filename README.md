@@ -2,7 +2,6 @@
 
 A real-time multiplayer server built using **Node.js** and **WebSockets** to power online multiplayer gameplay in Unity. The server handles player connections, room management, player synchronization, and message routing, enabling seamless multiplayer experiences across multiple devices.
 
----
 
 ## Features
 
@@ -14,7 +13,6 @@ A real-time multiplayer server built using **Node.js** and **WebSockets** to pow
 - Player connection and disconnection handling
 - Deployed online using Render
 
----
 
 ## Tech Stack
 
@@ -24,11 +22,9 @@ A real-time multiplayer server built using **Node.js** and **WebSockets** to pow
 - JSON
 - Render
 
----
 
 ## System Architecture
 
-```
                 Unity Client
                      │
               WebSocket Connection
@@ -42,9 +38,7 @@ A real-time multiplayer server built using **Node.js** and **WebSockets** to pow
                      │
                      ▼
              Connected Clients
-```
 
----
 
 ## How It Works
 
@@ -54,17 +48,15 @@ A real-time multiplayer server built using **Node.js** and **WebSockets** to pow
 4. Player actions (movement, jumping, etc.) are sent to the server.
 5. The server forwards updates only to players within the same room, keeping all clients synchronized.
 
----
 
 ## Live Demo
 
 **[Play the game](https://seon-nite.itch.io/magic-twins)**
 
-password : multiplayer123
+Password : multiplayer123
 
----
 
-## Current Limitations
+## Limitations
 
 - Supports a limited number of concurrent players per room.
 - Player movement is synchronized using periodic state updates, which may result in minor latency under unstable network conditions.
@@ -72,7 +64,6 @@ password : multiplayer123
 - Basic room management without matchmaking or lobby discovery.
 - Limited server-side validation, making the system unsuitable for production environments.
 
----
 
 ## Future Improvements
 
